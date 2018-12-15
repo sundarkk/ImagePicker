@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/dip"
+    android:scaleType="centerCrop"/>
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:src="@drawable/image_vision"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Happy Dipawali"
+      android:textSize="40dp"
+      android:textAlignment="center"
+      android:textStyle="bold"
+      android:textColor="#fff"
+      android:layout_marginTop="200dp"/>
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+     android:id="@+id/imageview"
+      android:layout_gravity="center"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/piker"/>
+
+
+ </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
